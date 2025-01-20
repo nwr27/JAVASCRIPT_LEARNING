@@ -1,0 +1,111 @@
+/* General Styles */
+body {
+  background-color: #f7f9fc;
+  font-family: 'Arial', sans-serif;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* Section styling */
+section {
+  padding: 50px 0;
+}
+
+/* Container styling */
+.container {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+}
+
+/* Title */
+h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #007bff;
+}
+
+/* Input Styling */
+.input-group input {
+  height: 50px;
+  font-size: 1.2rem;
+  text-align: center;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+.input-group input:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 8px rgba(0, 123, 255, 0.5);
+}
+
+/* Button Styling */
+.btn {
+  height: 50px;
+  font-size: 1.2rem;
+  padding: 0 20px;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+.btn-danger {
+  background-color: #ff4d4d;
+  border-color: #ff4d4d;
+}
+
+.btn-danger:hover {
+  background-color: #e60000;
+  border-color: #e60000;
+}
+
+.btn-success {
+  background-color: #28a745;
+  border-color: #28a745;
+}
+
+.btn-success:hover {
+  background-color: #218838;
+  border-color: #218838;
+}
+
+/* Dropdown Menu */
+.dropdown-menu {
+  font-size: 1.2rem;
+}
+
+.dropdown-item {
+  transition: all 0.3s ease;
+}
+
+.dropdown-item:hover {
+  background-color: #007bff;
+  color: #fff;
+}
+
+/* Result Styling */
+#result {
+  height: 50px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-align: center;
+  line-height: 50px;
+  color: #007bff;
+  background-color: #f1f3f8;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .row {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .col-md-2 {
+    margin-bottom: 10px;
+  }
+}
