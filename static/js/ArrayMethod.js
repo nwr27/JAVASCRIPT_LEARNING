@@ -16,11 +16,12 @@ arr.shift()
 {
   const fruits = ["Banana", "Orange", "Apple", "Mango"];
   fruits.splice(2, 0, "Lemon", "Kiwi");
-  // console.log(fruits);
+  console.log(fruits);
 }
 
 //6. concat()
 arr = arr.concat(0, 0, 0);
+console.log(arr);
 
 //7. slice()
 //8. indexOf()
@@ -31,7 +32,13 @@ arr = arr.concat(0, 0, 0);
 //13. filter()
 //14. some()
 //15. every()
+
 //16. map()
+const mapList = [98, 99, 76, 80];
+const mapList2 = mapList.map((item) => item + 1);
+console.log(mapList2);
+
+
 //17. reduce()
 //18. reduceRight()
 //19. flat()
@@ -44,4 +51,3 @@ arr = arr.concat(0, 0, 0);
 //26. fill()
 //27. copyWithin()
 
-console.log(arr);
